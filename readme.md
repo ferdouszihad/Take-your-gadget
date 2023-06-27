@@ -54,4 +54,39 @@ Apologies for the confusion. Here's a revised table with six columns:
 | Manage orders           |               |                          |                           | ✅                       | React, React-Router-Dom, Tailwind, Daisy UI, Firebase, React-Hook-form, Axios                            |
 | Sales Dashboard         |               |                          |                           | ✅                       | React, React-Router-Dom, Tailwind, Daisy UI, Firebase, React-Hook-form, Axios                            |
 
-Please note that the package and library names mentioned in the last column are just examples and may vary depending on your project requirements.
+## CSS Framework installation
+
+install Tailwind
+
+```bash
+npm install tailwindcss postcss autoprefixer
+```
+
+init Tailwind
+
+```bash
+npx tailwindcss init
+```
+
+import following style in index.css
+
+```bash
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+```
+
+Install daisyUI:
+
+```bash
+npm i -D daisyui@latest
+```
+
+Then add daisyUI to your tailwind.config.js files:
+
+```bash
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
+```
