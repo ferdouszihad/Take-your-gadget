@@ -2,7 +2,6 @@
 
 #### <i> "Take Your Gadget - Client" is a full-stack multivendor e-commerce project developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a platform for selling gadgets from multiple vendors.</i>
 
-<hr>
 ## <b> Features </b>
 
 - User registration and authentication
@@ -89,4 +88,16 @@ module.exports = {
   //...
   plugins: [require("daisyui")],
 }
+```
+
+## React Router Dom installation
+
+```bash
+npm install react-router-dom localforage match-sorter sort-by
+```
+
+## Firebase Installaion
+
+```bash
+npm install firebase
 ```
